@@ -1,0 +1,71 @@
+{
+
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: {
+		file: font-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	cyan: {
+		r: 0
+		g: 1
+		b: 0.99166656
+		a: 1
+	}
+	dark-cyan: {
+		r: 0
+		g: 0.39373153
+		b: 0.4333333
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: font
+		up: button-small
+		down: button-click-small
+	}
+	
+}
+
+
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: sound-icon-small
+		checkboxOff: sound-icon-small-mute
+		font: font
+		fontColor: white
+	}
+	radio: {
+		checkboxOn: sound-icon-small
+		checkboxOff: sound-icon-small-mute
+		font: font
+		fontColor: white
+	}
+}
+
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+	}
+	big: {
+		font: font
+	}
+	black: {
+		font: font
+		fontColor: black
+	}
+}
+}
